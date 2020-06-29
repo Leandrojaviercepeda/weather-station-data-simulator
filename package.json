@@ -1,0 +1,27 @@
+{
+  "name": "weather-station-data-simulator",
+  "version": "0.0.1",
+  "description": "Weather Station data simulator server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leandrojaviercepeda/weather-station-data-simulator.git"
+  },
+  "author": "Leandro Javier Cepeda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leandrojaviercepeda/weather-station-data-simulator/issues"
+  },
+  "homepage": "https://github.com/Leandrojaviercepeda/weather-station-data-simulator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
